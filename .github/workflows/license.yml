@@ -1,5 +1,5 @@
 # Copyright 2025 Google LLC
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: MIT
 
 name: 'License'
 
@@ -27,4 +27,4 @@ jobs:
           cache: true
 
       - name: 'Check'
-        run: 'go run github.com/google/addlicense@v1.1.1 -check -s=only .'
+        run: 'go run github.com/google/addlicense@v1.1.1 -check -l mit -s=only .'
